@@ -44,6 +44,7 @@ sudo apt install -f  # Para asegurar las dependencias
 
 ⚖️ Licencia
 Este proyecto es Software Libre bajo la licencia GNU GPLv3.
+
    
 <img width="1440" height="900" alt="Captura de pantalla" src="https://github.com/user-attachments/assets/edfc0dbd-0d14-4ba9-ba1a-047320715817" />
 
