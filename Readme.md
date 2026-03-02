@@ -2,7 +2,7 @@
 
 Una aplicación de escritorio moderna y eficiente para nivelar el volumen de archivos de audio en Linux, optimizada para OpenArgOS y sistemas basados en Debian.
 
-✨ Novedades de la Versión 1.1.2
+✨ Novedades de la Versión 1.1.4
 
 Conservación de Metadatos: Ahora la aplicación mantiene el título, artista y álbum del archivo original.
 
@@ -51,7 +51,9 @@ Instálalo con tu gestor de paquetes favorito o desde la terminal:
 Este proyecto es Software Libre bajo la licencia GNU GPLv3.
 
    
-<img width="1440" height="900" alt="Captura de pantalla" src="https://github.com/user-attachments/assets/edfc0dbd-0d14-4ba9-ba1a-047320715817" />
 
 
 
+
+<img width="1440" height="900" alt="Captura de pantalla_2026-03-02_01-51-24" src="https://github.com/user-attachments/assets/35c4135a-720b-459b-b2d2-00<img width="1440" height="900" alt="Captura de pantalla_2026-03-02_01-51-48" src="https://github.com/user-attachments/assets/25f27cb1-ab7e-4246-bddd-76b6c1a0e58c" />
+b972fd0cea" />
