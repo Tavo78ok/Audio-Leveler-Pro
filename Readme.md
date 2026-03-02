@@ -1,51 +1,33 @@
-# Audio Leveler Pro 🎧
+🔊 Audio Leveler Pro v1.1.4 — ArgOs Platinum Edition
+Audio Leveler Pro es una herramienta de nivelación de audio de alta precisión diseñada para entornos Linux (GTK4/Libadwaita). A diferencia de otros normalizadores, esta versión utiliza un motor Lossless, lo que permite ajustar el volumen sin recodificar el archivo, manteniendo el bitrate original (ej. 256kbps) y el "vibrante" del sonido intacto.
+🚀 Características Principales
+💎 Nivelación Lossless: Ajuste de ganancia mediante metadatos sin tocar la cadena de bits de audio.
+⚡ Velocidad Ultra-Rápida: Procesa archivos y carpetas completas en segundos gracias al motor mp3gain.
+🔍 Análisis de Precisión: Muestra el nivel de dB actual de cada pista antes de procesar.
+⚠️ Detección de Clipping: Identifica automáticamente si un archivo original ya está saturado (roto).
+🛑 Control Total: Botón de parada instantánea para detener procesos largos de forma segura.
+🎨 Interfaz ArgOs Platinum: Diseño moderno basado en Libadwaita con soporte nativo para modo oscuro.
 
-Una aplicación de escritorio moderna y eficiente para nivelar el volumen de archivos de audio en Linux, optimizada para OpenArgOS y sistemas basados en Debian.
+🛠️ Instalación
+Para que el "Motor Lossless" funcione, necesitas instalar la dependencia principal en tu sistema:
 
-✨ Novedades de la Versión 1.1.4
+sudo apt update && sudo apt install -y mp3gain
 
-Conservación de Metadatos: Ahora la aplicación mantiene el título, artista y álbum del archivo original.
+Luego, simplemente clona este repositorio y corre la aplicación:
 
-Soporte de Carátulas (Album Art): ¡Ya no más iconos genéricos! La imagen del álbum se transfiere intacta al archivo nivelado.
+python3 audio-leveler-pro.py
 
-Motor Mp3gain: Uso del filtro loudnorm para una normalización profesional a estándares LUFS.
+📖 Cómo usar
+Añadir: Usa el botón + para cargar tus archivos MP3.
+Analizar: Presiona la lupa para ver el volumen actual y detectar si hay clipping.
+Configurar: Ajusta el objetivo (Recomendado: 94dB para potencia máxima sin distorsión).
+Iniciar: Pulsa "Iniciar Nivelado Lossless" y disfruta de tu música nivelada en segundos.
 
-Función de Análisis antes de Normalizar para saber a qué volumen está el archivo de audio 
-
-🚀 Características principales:
-
-- Interfaz Moderna: Construida con GTK4 y Libadwaita para una integración perfecta con GNOME.
-
-- Procesamiento por Lotes: Añade carpetas enteras y nivela todo de una vez.
-
-- Vista Previa: Escucha los primeros 10 segundos para asegurarte de que el nivel de DB es el que buscas.
-
-- Notificaciones: El sistema te avisará automáticamente cuando el trabajo haya terminado.
-
-- Análisis: Función de previsualización del volumen actual antes de Normalizar.
-
-🛠️ Requisitos del sistema
-Para que la aplicación funcione, el sistema debe tener instalados:
-
-- python3
-
-- mp3gain
-
-- gir1.2-gtk-4.0
-
-- gir1.2-adw-1
-
-📦 Instalación:
-
-Ve a la sección de Lanzamientos (Releases).
-
-Descarga el archivo audio-leveler-pro.deb.
-
-Instálalo con tu gestor de paquetes favorito o desde la terminal:
-
-- sudo dpkg -i audio-leveler-pro.deb
-
-- sudo apt install -f  # Para asegurar las dependencias
+📝 Changelog v1.1.4
+Migración de motor FFMPEG a MP3Gain (Adiós a la pérdida de calidad).
+Se eliminó la recodificación forzada a 128kbps; ahora el bitrate original se respeta al 100%.
+Implementación de hilos (threading) para que la UI nunca se congele.
+Desarrollado por Tavo para el ecosistema ArgOs.
 
 ⚖️ Licencia
 Este proyecto es Software Libre bajo la licencia GNU GPLv3.
