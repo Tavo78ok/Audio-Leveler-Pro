@@ -50,9 +50,8 @@ Instálalo con tu gestor de paquetes favorito o desde la terminal:
 ⚖️ Licencia
 Este proyecto es Software Libre bajo la licencia GNU GPLv3.
 
-   
+<img width="1440" height="900" alt="Captura de pantalla_2026-03-02_01-51-24" src="https://github.com/user-attachments/assets/a2382a61-f3ce-4e73-8daa-fbb4a88486a6" />
 
-<img width="1440" height="900" alt="Captura de pantalla_2026-03-02_01-51-24" src="https://github.com/user-attachments/assets/35c4135a-720b-459b-b2d2-00  
 
-<img width="1440" height="900" alt="Captura de pantalla_2026-03-02_01-51-48" src="https://github.com/user-attachments/assets/25f27cb1-ab7e-4246-bddd-76b6c1a0e58c" />
-b972fd0cea" />
+
+<img width="1440" height="900" alt="Captura de pantalla_2026-03-02_01-51-48" src="https://github.com/user-attachments/assets/ddfa4e51-423e-404e-84cc-a5b14f98ab63" />
