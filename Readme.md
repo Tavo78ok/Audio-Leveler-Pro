@@ -1,4 +1,4 @@
-🔊 Audio Leveler Pro v1.1.4 
+##🔊 Audio Leveler Pro v1.1.4 
 
 Audio Leveler Pro es una herramienta de nivelación de audio de alta precisión diseñada para entornos Linux (GTK4/Libadwaita). A diferencia de otros normalizadores, esta versión utiliza un motor Lossless, lo que permite ajustar el volumen sin recodificar el archivo, manteniendo el bitrate original (ej. 256kbps) y el "vibrante" del sonido intacto.
 
