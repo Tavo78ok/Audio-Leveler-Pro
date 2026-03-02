@@ -8,7 +8,7 @@ Conservación de Metadatos: Ahora la aplicación mantiene el título, artista y 
 
 Soporte de Carátulas (Album Art): ¡Ya no más iconos genéricos! La imagen del álbum se transfiere intacta al archivo nivelado.
 
-Motor FFmpeg Optimizado: Uso del filtro loudnorm para una normalización profesional a estándares LUFS.
+Motor Mp3gain: Uso del filtro loudnorm para una normalización profesional a estándares LUFS.
 
 Función de Análisis antes de Normalizar para saber a qué volumen está el archivo de audio 
 
@@ -29,7 +29,7 @@ Para que la aplicación funcione, el sistema debe tener instalados:
 
 - python3
 
-- ffmpeg
+- mp3gain
 
 - gir1.2-gtk-4.0
 
