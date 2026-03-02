@@ -6,6 +6,7 @@ Audio Leveler Pro es una herramienta de nivelación de audio de alta precisión 
 
 💎 Nivelación Lossless: Ajuste de ganancia mediante metadatos sin tocar la cadena de bits de audio.
 ⚡ Velocidad Ultra-Rápida: Procesa archivos y carpetas completas en segundos gracias al motor mp3gain.
+
 🔍 Análisis de Precisión: Muestra el nivel de dB actual de cada pista antes de procesar.
 
 ⚠️ Detección de Clipping: Identifica automáticamente si un archivo original ya está saturado (roto).
